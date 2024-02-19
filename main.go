@@ -113,7 +113,7 @@ func deployTx(pub string, a *account.Account) {
 			continue
 		}
 		fmt.Println("deployd: ", resp.ContractAddress)
-		time.Sleep(41 * time.Second)
+		time.Sleep(21 * time.Second)
 
 	}
 
@@ -170,7 +170,7 @@ func invokeTx(a *account.Account) {
 		}
 
 		fmt.Println("tx: ", rsp.TransactionHash, " nonce: ", nonce)
-		time.Sleep(40 * time.Second)
+		time.Sleep(20 * time.Second)
 	}
 }
 
